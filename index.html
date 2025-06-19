@@ -3,79 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
 
-    <div class="header">
-        <h1 class="title-head">Chat App</h1>
-        <p class="des-head">Chat App is a simple, fast, and user-friendly messaging platform for real-time communication with friends, family, and
-        colleagues.</p>
-        <span class="copyright">Abdelmajeed Asil &copy;</span>
-
+    <div class="nameapp">
+        <h1>MSGApp</h1>
     </div>
 
-    <div class="chatapp">
-
-        <div class="info">
-            <img class="my-photo" src="Image/photo.jpg" alt="">
-            <h1 class="name">Abdelmajeed</h1>
-            <p class="Online">Online</p>
+    <div class="form">
+        <div class="title">
+            <h1>Login Form</h1>
+            <p>pleas send your email and password here</p>
         </div>
-        
-        <div class="messages">
-            <div class="message">
-
-                <div class="message-content">
-                    <p class="message12">Hello, how are you?</p>
-                    <span class="timestamp">10:00 AM</span>
-
-
+        <br>
+        <br>
+        <div class="inputs">
+            <label class="number" for="">Your phone number</label><br>
+            <input type="text" required>
+            <br>
+            <br>
+            <label class="password" for="">Your password</label><br>
+            <input type="password">
+        </div>
+        <br>
+        <input type="button" class="button" value="Login" onclick="window.location.href='chats.html'" style="cursor: pointer;" >
+            <div class="or">
+                <hr class="line">
+                <span>OR</span>
+                <hr class="line">
             </div>
-                    <div class="message-content1">
-                        <p class="message11">I Am fine, and you?</p>
 
-                        <div class="timestamp1">
-                        <span>10:02 AM</span>
-                    </div>
-                        
-                        
-
+            <div class="icons"> 
+                    <div class="google">
+                    <img class="google" src="image/icon/google-logo.png" alt="">
                 </div>
-                
 
-    </div>
-
-    <div class="message-content1">
-        <p class="message11">I Am fine, and you?</p>
-    
-        <div class="timestamp1">
-            <span>10:02 AM</span>
-        </div>
-    </div>
-
-            </div>
-    <div class="message-content">
-        <p class="message12">Hello, how are you?</p>
-        <span class="timestamp">10:00 AM</span>
-    
-    
-    </div>
-
-    <div class="message-content">
-        <p class="message12">Hello, how are you?</p>
-        <span class="timestamp">10:00 AM</span>
-    
-    
-    </div>
-
-
-            <div class="sendmessage">
-                <input class="sendhere" type="text" placeholder="Type a message...">
-                <button class="button" type="submit">Send</button>
-            </div>
+                <h1 class="h1">login with google</h1>
             </div>
 
+            <div class="icons">
+                <div class="googl">
+                    <img class="x" src="image/icon/icons8-x-50.png" alt="">
+                </div>
+            
+                <h1 class="h1">login with X</h1>
+            </div>
+
+            <div class="icons">
+                <div class="google">
+                    <img class="google" src="image/icon/icons8-facebook-48.png" alt="">
+                </div>
+            
+                <h1 class="h1">login with Facebook</h1>
+            </div>
+
+            <div class="icons">
+                <div class="google">
+                    <img class="google" src="image/icon/icons8-linkedin-48.png" alt="">
+                </div>
+            
+                <h1 class="h1">login with Linkedin</h1>
+            </div>
+
+            <div class="signin">
+            <h4>I'dont Have account?</h4><a href="">Create Accout</a>
+            </div>
+
+     
+    </div>
 </body>
 </html>
